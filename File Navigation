@@ -1,0 +1,6 @@
+PWD "Print Working Directory"
+/c/user/_____/
+
+mkdir question "Make a Directory called question"
+
+cd question "Change Directory- Enter folder called question"
