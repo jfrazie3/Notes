@@ -1,0 +1,10 @@
+5.7
+System.out.printf  //print format-used to add things like , in long numbers ex. 100,000,000
+%d works for decimal integer
+%s for string
+%f float-always prints at least one digit after decimal point
+%e floats, but will be printed out in scientific notation
+%flags#width#precision conventional format character
+%10.2f gives a total of 10 spaces 2 means to the second decimal point "." counts as a space if empty space left in the 10 it adds empty space to the beginning of the number
+%-10.2f adds empty space to the right
+%010.2f changes empty space to 0's
