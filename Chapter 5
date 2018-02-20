@@ -8,3 +8,47 @@ System.out.printf  //print format-used to add things like , in long numbers ex. 
 %10.2f gives a total of 10 spaces 2 means to the second decimal point "." counts as a space if empty space left in the 10 it adds empty space to the beginning of the number
 %-10.2f adds empty space to the right
 %010.2f changes empty space to 0's
+
+
+functions 
+public static void main (string[]args)
+
+public-anything can call functions
+private- only this file can call your functions
+static- always used
+void- dont return anything. type that is returned by function. could be float string char boolean
+main- name of function. No two functions in the same class can have the same name
+String[]-what goes into the function
+
+(type name,)
+type is int, string, float
+name can be anything start with a lowercase letter
+
+
+private void printChessboardLine (boolean odd)
+{
+  if (odd)
+  {
+    println("bwbwbwbw");
+   }
+   else
+   {
+    println("wbwbwbwbwb");
+    }
+   
+}
+
+chapter 2 3 4 5 and beginning of 9
+
+
+
+Arrays
+
+int[] age; says that age will store an integer array
+
+age=new int[sizeOfList] 
+age[3]; finds the value stored in section 3 of age
+initially all spaces have a value of 0 for integers, and floats. booleans have false. strings have null
+
+
+
